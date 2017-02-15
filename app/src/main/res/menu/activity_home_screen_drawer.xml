@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="@string/how_to_repost" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/share_with_friends" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/rate_app" />
+    </group>
+</menu>

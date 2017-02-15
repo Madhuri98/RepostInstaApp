@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:layout_weight=".5"
+        android:src="@drawable/close" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:src="@drawable/instagram_icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/no_ads_version"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="@string/we_should_show_ads_to_give_a_high_quality_services_to_you_if_you_dont_wants_ads_you_can_have_no_ads_version_for_only"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="@color/colorPrimary"
+        android:text="$1.99" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="No Ads" />
+
+        <Button
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textSize="20dp"
+            android:text="Restore" />
+    </LinearLayout>
+</LinearLayout>

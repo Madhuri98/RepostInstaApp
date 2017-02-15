@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "351391989143",
+    "firebase_url": "https://repostinsta-2db1c.firebaseio.com",
+    "project_id": "repostinsta-2db1c",
+    "storage_bucket": "repostinsta-2db1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351391989143:android:d3cd34727301e03d",
+        "android_client_info": {
+          "package_name": "com.repost.insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351391989143-4o96oga0efvsp0eq09gsmb40ua5sm1ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCz2qeCtuK4vPWbjTUyoQ0Utoyrvv1Vo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

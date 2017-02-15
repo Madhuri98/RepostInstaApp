@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <FrameLayout
+            android:id="@+id/layoutVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <VideoView
+                android:id="@+id/videoViewRepost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" />
+
+           <!-- <ImageView
+                android:id="@+id/imgPlayBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/play" />-->
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgRepostPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/profile" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRepost"
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableTop="@drawable/retweet"
+            android:text="Repost" />
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FCB041"
+            android:drawableTop="@drawable/download"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnNoAds"
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1176BC"
+            android:drawableTop="@drawable/noads"
+            android:text="No Ads" />
+
+        <Button
+            android:id="@+id/btnMoreApps"
+            style="@style/RepostSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2CB674"
+            android:drawableTop="@drawable/more_apps"
+            android:text="More Apps" />
+    </LinearLayout>
+
+
+</LinearLayout>
