@@ -157,6 +157,7 @@ public class ActivityRepostSave extends AppCompatActivity implements View.OnClic
                 Toast.makeText(ActivityRepostSave.this, "This video is saved in internal storage", Toast.LENGTH_SHORT).show();
 
             } else {
+
                 savePost();
                 Toast.makeText(ActivityRepostSave.this, "This Image is saved in internal storage", Toast.LENGTH_SHORT).show();
 
